@@ -1,14 +1,167 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
-  </head>
-  <body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+</head>
+
+<body>
+    <!-- START navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Top 10 Stuffs
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END navbar -->
+    <!-- START title and h1 container -->
+    <div class="title-and-p">
+        <h1>Pedro's TOP 10 List</h1>
+        <p></p>
+    </div>
+    <!-- END title and h1 container -->
+    <!-- START card container -->
+    <div class="card-container">
+        <div class="row card-rows">
+            <div class="col-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="../images/Gang_Starr_Hard_To_Earn.jpg" class="card-img-top" alt="Hard To Earn album cover with Guru and DJ Premiere sitting on a couch">
+                    <div class="card-body">
+                        <h5 class="card-title">Song</h5>
+                        <p class="card-text">Mass Appeal</p>
+                        <a href="#" class="btn btn-primary">See Review</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="../images/blackSweater.jpg" class="card-img-top" alt="Black hoodie with origin logo in center front">
+                    <div class="card-body">
+                        <h5 class="card-title">Clothing Item</h5>
+                        <p class="card-text">Black Origin Hoodie</p>
+                        <a href="#" class="btn btn-primary">See Review</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="../images/black67Shelby.jpg" class="card-img-top" alt="Black 1967 Shelby GT500">
+                    <div class="card-body">
+                        <h5 class="card-title">Car</h5>
+                        <p class="card-text">1967 Shelby GT500</p>
+                        <a href="#" class="btn btn-primary">See Review</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="../images/area51game.jpg" class="card-img-top" alt="Area 51 game conver showing front and back side">
+                    <div class="card-body">
+                        <h5 class="card-title">Tech</h5>
+                        <p class="card-text">PS2</p>
+                        <a href="#" class="btn btn-primary">See Review</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="../images/realGoldTeeth.jpg" class="card-img-top" alt="Gold teeth Jewlery">
+                    <div class="card-body">
+                        <h5 class="card-title">Jewlery</h5>
+                        <p class="card-text">Johnny Dang 18k Gold Teeth</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="../images/social-youtube-icon.png" class="card-img-top" alt="YouTube logo">
+                    <div class="card-body">
+                        <h5 class="card-title">App</h5>
+                        <p class="card-text">YouTube</p>
+                        <a href="#" class="btn btn-primary">See Review</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="../images/Son-Doong-Cave-Vietnam.jpg" class="card-img-top" alt="Picture of Son Doong Cave in Vietnam">
+                    <div class="card-body">
+                        <h5 class="card-title">Destination</h5>
+                        <p class="card-text">Son Doong Cave, Vietnam</p>
+                        <a href="#" class="btn btn-primary">See Review</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="../images/californiaSpring.jpg" class="card-img-top" alt="Picture of california terrain in spring with golden poppys blooming">
+                    <div class="card-body">
+                        <h5 class="card-title">Season</h5>
+                        <p class="card-text">Spring</p>
+                        <a href="#" class="btn btn-primary">See Review</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="../images/inNoutBurger.jpg" class="card-img-top" alt="In N Out Double Double Cheeseburger Anima Style">
+                    <div class="card-body">
+                        <h5 class="card-title">Dish</h5>
+                        <p class="card-text">Double Double Cheeseburger Animal Sytle at In N Out</p>
+                        <a href="#" class="btn btn-primary">See Review</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center-single-card">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card single-card" style="width: 18rem;">
+                        <img src="../images/pseBow.jpeg" class="card-img-top" alt="PSE compound bow with white background">
+                        <div class="card-body">
+                            <h5 class="card-title">Hobby</h5>
+                            <p class="card-text">Archery</p>
+                            <a href="#" class="btn btn-primary">See Review</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END card container -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
