@@ -39,7 +39,9 @@ justify-content: center;
 /* ------------------------------------ START Pedro's CSS --------------------------------------------- */
 
 
-
+.title-and-p {
+    margin: 15px 40px 15px 40px;
+}
 /* MY OLD CODE FOR LAYING OUT THE CARDS ON WEBSITE, WE ARE GOING TO USE CARLOS' FLEXBOX GRID CODE */
 /* .card-container {
     margin: 5rem 5px 3rem 5px;
