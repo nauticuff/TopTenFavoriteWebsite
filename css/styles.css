@@ -101,7 +101,7 @@ justify-content: center;
     left: 0;
     background-size: cover;
     width: 100%;
-    height: 10vh;
+    height: 6.5em;
     background-color: #81b29a;
     z-index: -3;
 }
@@ -143,7 +143,8 @@ nav {
 
 .card-container {
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+/* grid-template-columns: repeat(2, auto); */
+/* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
 background-color: #2195f300;
 padding: 1.5em;
 grid-gap: 40px;
@@ -152,10 +153,10 @@ grid-gap: 40px;
 
 .card {
 
-
+display: grid;
 background-color: #E07A5F;
 border-radius: 1.5em;
-height: 60vh;
+height: 30em;
 
 
 /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -163,5 +164,17 @@ text-align: center;
 padding: 3em;
 margin: 3em; */
 }
+
+@media only screen and (min-width: 570px) {
+    .card-container {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .card {
+        max-width: 28em;
+    }
+}
+
+
 
 /* End Feedback Styling */
