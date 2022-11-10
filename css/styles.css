@@ -320,6 +320,7 @@ padding-top: 3em;
     flex-direction: column;
     width: 20em;
     animation: fbDown 1.2s forwards;
+    opacity: 0;
 }
 
 .feedback-sub {
@@ -439,6 +440,7 @@ color: #c3c1bb;
 text-align: center;
 text-shadow: 2px 2px rgb(43, 43, 43);
 animation: moveDown 1s forwards;
+opacity: 0;
 }
 
 .about-text p {
