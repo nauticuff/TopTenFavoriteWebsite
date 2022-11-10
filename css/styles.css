@@ -137,10 +137,12 @@ svg {
     padding-top: 2em;
 }
 
-/* #single-card {
+#single-card {
     display: flex;
-    justify-self: center;
-} */
+    flex-wrap: wrap;
+    grid-column: 2;
+    
+}
 
 .btn {
     background-color: #81b29a;
