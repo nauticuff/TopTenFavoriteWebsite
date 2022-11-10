@@ -121,6 +121,8 @@ svg {
     width: 35px;
 }
 
+/* ------------------- END footer css ---------------------- */
+
 .yellow {
     background-color: #E0A55F;
 }
@@ -156,8 +158,6 @@ svg {
     background-color: #81b29a;
     color: #474a5d;
 }
-
-/* ------------------- END footer css ---------------------- */
 
 /* MY OLD CODE FOR LAYING OUT THE CARDS ON WEBSITE, WE ARE GOING TO USE CARLOS' FLEXBOX GRID CODE */
 /* .card-container {
