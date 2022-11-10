@@ -393,14 +393,14 @@ z-index: -3;
 font-weight: 800;
 font-size: 10em;
 padding: .2em 1px;
-color: #b3b0a3;
+color: #c3c1bb;
 text-align: center;
 text-shadow: 2px 2px rgb(43, 43, 43);
 }
 
 .about-text p {
 font-size: 2em;
-color: #b3b0a3;
+color: #fdfdfd;
 text-align: center;
 text-shadow: 2px 2px rgb(43, 43, 43);
 }
@@ -432,9 +432,10 @@ z-index: -3;
     font-size: 3.5em;
 }
 
-.home-text .subhead {
-    font-size: 1.5em;
+.subhead {
+    font-size: 1.8em;
     padding: .5em 0;
+    color: #ffffff;
 }
 
 
