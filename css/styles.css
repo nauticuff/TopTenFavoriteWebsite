@@ -14,6 +14,18 @@ body {
     height: 25%;
     width: auto;
 }
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
 /* ------------------------------------ END Global Selectors ------------------------------------------ */
 .CardContainer {
 display: grid;
