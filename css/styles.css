@@ -29,7 +29,7 @@ a:hover {
     color: black;
 }
 
-/* ------------------------------------ END Global Selectors ------------------------------------------ */
+
 .CardContainer {
 display: grid;
 /* grid-template-columns: auto auto; */
@@ -48,16 +48,17 @@ justify-self: center;
 justify-content: center;
 }
 
-img {
-    border-radius: 1em;
-}
+/* ------------------------------------ END Global Selectors ------------------------------------------ */
 
 /* ------------------------------------ START Pedro's CSS --------------------------------------------- */
 
 #all-images {
-    padding: 1.5em;
-    margin-top: 2em;
+    padding: 1em;
+    margin-top: 1em;
     margin-bottom: 0em;
+    object-fit: cover;
+    height: 13em;
+    width: 100%;
 }
 
 /* -------------- START footer css ----------------- */
@@ -68,12 +69,8 @@ img {
     background-size: cover;
     width: 100%;
     height: 6em;
-    background-color: #F2CC8F;
-    z-index: -3;
-}
-
-#feedback-footer-color {
     background-color: #E0A55F;
+    z-index: -3;
 }
 
 .footer-container {
@@ -102,7 +99,7 @@ img {
 }
 
 .footer-links {
-    padding-left: 2.5em;
+    padding-left: 5.5em;
 }
 
 .footer-icons {
@@ -120,11 +117,42 @@ svg {
     width: 35px;
 }
 
+.yellow {
+    background-color: #E0A55F;
+}
+
+.purple {
+    background-color: #3D405B;
+}
+
+.light-red {
+    background-color: #E07A5F;
+}
+
+.card-text, .card-title {
+    color: white;
+}
+
+.card-title {
+    padding-top: 2em;
+}
+
+/* #single-card {
+    display: flex;
+    justify-self: center;
+} */
+
+.btn {
+    background-color: #81b29a;
+    border: none;
+}
+.btn:hover {
+    background-color: #81b29a;
+    color: #474a5d;
+}
+
 /* ------------------- END footer css ---------------------- */
 
-.title-and-p {
-    margin: 15px 40px 15px 40px;
-}
 /* MY OLD CODE FOR LAYING OUT THE CARDS ON WEBSITE, WE ARE GOING TO USE CARLOS' FLEXBOX GRID CODE */
 /* .card-container {
     margin: 5rem 5px 3rem 5px;
@@ -160,7 +188,7 @@ svg {
 
 @media only screen and (max-width: 800px) {
     .CardContainer {
-        grid-template-columns:  auto;
+        grid-template-columns: auto;
     }
 } 
 
@@ -311,10 +339,11 @@ grid-gap: 40px;
 
 }
 
+
 .card {
 
 display: grid;
-background-color: #E07A5F;
+/* background-color: #E07A5F; */
 border-radius: 1.5em;
 height: 30em;
 }
