@@ -319,6 +319,7 @@ padding-top: 3em;
     display: flex;
     flex-direction: column;
     width: 20em;
+    animation: fbDown 1.2s forwards;
 }
 
 .feedback-sub {
@@ -437,6 +438,7 @@ padding: .2em 1px;
 color: #c3c1bb;
 text-align: center;
 text-shadow: 2px 2px rgb(43, 43, 43);
+animation: moveDown 1s forwards;
 }
 
 .about-text p {
@@ -526,6 +528,18 @@ margin-top: 1em;
         opacity: 1;
     }
 }
+
+@keyframes fbDown {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
 
 
 
