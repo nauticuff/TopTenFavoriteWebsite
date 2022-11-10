@@ -246,6 +246,7 @@ z-index: -3;
     height: 3.5em;
     cursor: pointer;
     background-size: cover;
+    animation: slideRight 1.3s forwards;
 }
 
 header {
