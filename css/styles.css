@@ -299,6 +299,8 @@ padding: 1em;
 font-size: 2em;
 max-width: 35em;
 color: #F4F1DE;
+animation: slideRight 1.3s forwards;
+opacity: 0;
 }
 
 .feedback-text {
@@ -537,6 +539,16 @@ margin-top: 1em;
     }
     to {
         transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-35px);
+    }
+    to {
+        transform: rotateX(0);
         opacity: 1;
     }
 }
