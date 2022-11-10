@@ -3,8 +3,8 @@ body {
     background: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
 }
+
 .nav-bar {
     background-color: #81b29a;
     font-size: x-large;
@@ -32,7 +32,6 @@ display: grid;
 /* grid-template-columns: auto auto; */
 grid-template-columns: auto auto;
 grid-template-rows: (auto-fit, minmax(500px, 2fr));
-background-color: #2196F3;
 padding: 10px;
 grid-gap: 10px;
 align-items: center;
@@ -44,6 +43,10 @@ font-size: 30px;
 text-align: center;
 justify-self: center;
 justify-content: center;
+}
+
+img {
+    border-radius: 1em;
 }
 
 /* ------------------------------------ END Carlos' CSS ----------------------------------------------- */
@@ -88,3 +91,315 @@ justify-content: center;
         grid-template-columns:  auto;
     }
 } 
+
+/* Start Feedback Styling */
+.feedback {
+    margin: 1.5em;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.fb-img {
+position: fixed;
+background-color: #F2CC8F;
+top: 0;
+left: 0;
+background-size: cover;
+width: 100%;
+height: 100vh;
+z-index: -3;
+}
+
+.hero-image {
+    background: linear-gradient(to top, #a5945846, #776fc756), url(/images/Carlos/where.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position-x: 55%;
+    width: 100%;
+    height: 100vh;
+    z-index: -5;
+}
+
+.header-block {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: 100%;
+    height: 6.5em;
+    background-color: #81b29a;
+    z-index: -3;
+}
+
+.logo {
+    background: url(/images/Carlos/ribbon.png.png);
+    margin-top: -.6em;
+    margin-left: 1em;
+    width: 3.5em;
+    height: 3.5em;
+    cursor: pointer;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+
+a:hover {
+    color: #474a5d;
+    text-decoration: underline;
+}
+
+.close {
+    height: 3.5em;
+    cursor: pointer;
+    display: none;
+}
+
+nav {
+    display: block;
+    margin: 0;
+    width: auto;
+    height: auto;
+    background: none;
+    padding-right: 12em;
+    padding-left: 0;
+}
+
+ul {
+    display: flex;
+    color: black;
+}
+
+li {
+    padding: 1em 6em;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+
+.hero-txt {
+padding: 1em;
+font-size: 2em;
+max-width: 35em;
+color: #F4F1DE;
+}
+
+.feedback-text {
+display: flex;
+/* flex-direction: column;*/
+justify-content: space-around; 
+padding-top: 3em;
+}
+
+.img-right {
+    display: flex;
+    justify-content: right;
+    height: 2em;
+    width: 2em;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+}
+
+.feedback-sub {
+    font-size: 2em;
+    line-height: 1.3em;
+}
+
+.feedback-ap {
+    position: right;
+    margin-top: 2em;
+    margin-right: 15em;
+    width: 4em;
+    height: 4em;
+    cursor: pointer;
+}
+
+.card-container {
+display: grid;
+/* grid-template-columns: repeat(2, auto); */
+/* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+background-color: #2195f300;
+padding: 1.5em;
+grid-gap: 40px;
+
+}
+
+.card {
+
+display: grid;
+background-color: #E07A5F;
+border-radius: 1.5em;
+height: 30em;
+}
+
+.submit {
+position: absolute;
+width: 419px;
+height: 475px;
+left: 700px;
+top: 270px;
+background-color: #E07A5F;
+border-radius: 1em;
+}
+
+.submit-top{
+    background-color: #FAECD6;
+    position: absolute;
+    width: 372px;
+    height: 107px;
+    top: 20px;
+    left: 20px;
+    border-radius: .5em;
+}
+
+.submit p {
+color: #909090;
+margin-left: .5em;
+margin-top: .5em;
+
+
+
+}
+
+.submit-bottom {
+    background-color:#FAECD6;
+    position: absolute;
+width: 372px;
+height: 285px;
+top: 160px;
+left: 20px;
+border-radius: .5em;
+
+}
+
+
+/* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+text-align: center;
+padding: 3em;
+margin: 3em; */
+
+
+@media only screen and (min-width: 570px) {
+    .card-container {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .card {
+        max-width: 28em;
+    }
+}
+
+
+
+/* End Feedback Styling */
+
+
+/* START ABOUT STYLING */
+.about-hero-img{
+position: fixed;
+background: url(https://images.unsplash.com/photo-1527492662722-dbaf97270863?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+background-size: cover;
+top: 0;
+left: 0;
+background-size: cover;
+width: 100%;
+height: 100vh;
+z-index: -3;
+
+}
+
+.about-text h1 {
+font-weight: 800;
+font-size: 10em;
+padding: .2em 1px;
+color: #b3b0a3;
+text-align: center;
+text-shadow: 2px 2px rgb(43, 43, 43);
+}
+
+.about-text p {
+font-size: 2em;
+color: #b3b0a3;
+text-align: center;
+text-shadow: 2px 2px rgb(43, 43, 43);
+}
+
+/* END ABOUT STYLING */
+
+
+/* HOME STYLING */
+.home {
+position: fixed;
+background: linear-gradient(to top,  #776fc756, #a5945846), url(/images/Carlos/where.png);
+background-size: cover;  
+top: 0;
+left: 0;
+background-size: cover;
+width: 100%;
+height: 100vh;
+z-index: -3;
+}
+
+.home-text {
+    padding: 3rem 7rem;
+    color: #F4F1DE;
+    text-shadow: 1px 1px rgb(66, 66, 66);
+    line-height: 2em;
+}
+
+.home-text h1 {
+    font-size: 3.5em;
+}
+
+.home-text .subhead {
+    font-size: 1.5em;
+    padding: .5em 0;
+}
+
+
+.home-cards {
+    display: flex;
+    padding: 5em 2em;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.home-cards div {
+    background-color: #C37D7D;
+    padding: 3em 1.5em;
+    border-radius: 1em;
+}
+
+.home-cards p {
+    font-size: 2em;
+    color: #F4F1DE;
+}
+
+.Twocards {
+display: flex;
+width: 15em;
+height: 15em;
+object-fit: cover;
+border-radius: 0.3em;
+margin-top: 1em;
+}
+
+
+/* END HOME STYLING */
