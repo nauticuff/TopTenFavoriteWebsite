@@ -1,9 +1,11 @@
-body {
+/* --------------------------------START Global Selectors ------------------------------------- */
+
+/* body {
     background-image: url('https://images.unsplash.com/photo-1500930540495-e92875696a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1786&q=80');
     background: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
+} */
 
 .nav-bar {
     background-color: #81b29a;
@@ -26,6 +28,7 @@ a:hover {
     text-decoration: none;
     color: black;
 }
+
 /* ------------------------------------ END Global Selectors ------------------------------------------ */
 .CardContainer {
 display: grid;
@@ -49,10 +52,69 @@ img {
     border-radius: 1em;
 }
 
-/* ------------------------------------ END Carlos' CSS ----------------------------------------------- */
-
 /* ------------------------------------ START Pedro's CSS --------------------------------------------- */
 
+/* -------------- START footer css ----------------- */
+.footer-block {
+    position: absolute; 
+    left: 0;
+    margin-bottom: 0;
+    background-size: cover;
+    width: 100%;
+    height: 6em;
+    background-color: #F2CC8F;
+    z-index: -3;
+}
+
+#feedback-footer-color {
+    background-color: #E0A55F;
+}
+
+.footer-container {
+    padding-top: 1.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.copy-text {
+    color: white;
+    padding-left: 1em;
+}
+
+#link-text {
+    color: white;
+}
+
+#link-text:hover {
+    color: #474a5d;
+}
+
+.footer-links {
+    padding-left: 2.5em;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+}
+.icons {
+    padding-left: 1em;
+}
+
+svg {
+    height: 35px;
+    width: 35px;
+}
+
+/* ------------------- END footer css ---------------------- */
 
 .title-and-p {
     margin: 15px 40px 15px 40px;
@@ -85,7 +147,11 @@ img {
     width: 288px;
     object-fit: contain;
 } */
+
+
 /* ------------------------------------ END Pedro's CSS ----------------------------------------------- */
+
+
 @media only screen and (max-width: 800px) {
     .CardContainer {
         grid-template-columns:  auto;
